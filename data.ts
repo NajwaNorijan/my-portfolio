@@ -7,9 +7,9 @@ import { NextCookies } from "next/dist/server/web/spec-extension/cookies";
 export const services: IService[] = [
   {
     title: "Frontend Development",
-    about: "I can build a scalable and beautiful web application",
+    about: "I can build a web and mobile applications",
     Icon: RiComputerLine,
-    tools: ["HTML", "CSS", "Javascript", "React.js", "Next.js", "Tailwind CSS"],
+    tools: ["HTML", "CSS", "Javascript", "React.js", "Next.js", "React Native", "Material UI", "Bootstrap", "Tailwind CSS"],
   },
   {
     title: "Backend Development",
@@ -93,7 +93,7 @@ export const projects: IProject[] = [
     gitlab_url: "https://gitlab.com/najwanorijan/climate-change-api",
     category: ["node", "express", "javascript"],
     description:
-      "Climate Change API is a n API that tells us climate change news from various websites such as Guardian, Los Angeles Times, New York Post, Evening Standard and many more by scraping from these websites by using Cheerio, which is a Javascript library",
+      "Climate Change API is an API that tells us climate change news from various websites such as Guardian, Los Angeles Times, New York Post, Evening Standard and many more by scraping from these websites by using Cheerio, which is a Javascript library",
     key_techs: ["Javascript", "NodeJS", "Express", "REST API"],
   },
 

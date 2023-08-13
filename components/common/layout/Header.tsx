@@ -23,7 +23,7 @@ const Header = () => {
         sizes="16x16"
         href={`/images/favicon/favicon-16x16.png`}
       />
-      <meta name="keywords" content="Full Stack Engineer" />
+      <meta name="keywords" content="Full Stack Engineer Software Engineer" />
       <meta name="description" content="Najwa Norijan Portfolio" />
       <meta name="author" content="Nor Najwa Fazleen Binti Norijan" />
     </Head>

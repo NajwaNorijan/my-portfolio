@@ -6,8 +6,8 @@ import ServiceCard from "./ServiceCard";
 const ServiceOfferSection = () => {
   return (
     <>
-      <section className="md:p-10 md:my-10">
-        <h3 className="py-1 text-3xl font-bold text-center dark:text-white ">
+      <section className="md:p-10 md:my-10 bg-gray-600">
+        <h3 className="py-1 text-3xl font-bold text-center text-white">
           What I Am Doing
         </h3>
 
