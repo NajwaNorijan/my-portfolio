@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TODO use tailwind*/
+body {
+  background-color: black;
+  font-family: sans-serif;
+  color: #354358;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+@font-face {
+  font-family: "burtons";
+  src: url("../public/fonts/Burtons.otf");
+}
+
+/* font-family: "Spline Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+
+  .spline {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 1200px;
+    height: 1000px; */
+
+/* .wrapper {
+  /* position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5rem; */
+/* overflow-x: hidden; */
+/* } */
+.spline {
+  /* position: absolute; */
+  /* margin: 0;
+  top: 0;
+  right: 0; */
+  /* width: 1200px;
+  height: 1000px; */
+}
+
+.bring-to-back {
+  z-index: -1;
+}
+
+.bring-to-front {
+  z-index: 1;
+}
+
+@media (max-width: 1440px) {
+  .spline {
+    /* margin: 0;
+    top: 0;
+    right: 0; */
+    /* position: absolute;
+    transform: scale(0.6) translateX(200px); */
+
+    /* margin: 0;
+    top: 0;
+    right: 0;
+    transform: scale(0.5); */
+
+    /* margin: 0; */
+    /* transform: scale(0.5); */
+  }
+  /* transform-origin: top; */
+}
+
+/* @media (min-width: 1025px) { */
+@media (min-width: 1440px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .text-align-left {
+    text-align: left;
+  }
+  .spline {
+    margin: 0;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* @media (max-width: 1024px) { */
+@media (max-width: 1439px) {
+  .wrapper {
+    display: flex;
+    padding: 2.5rem;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .text-position {
+    text-align: center;
+  }
+
+  .margin-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex-justify-center {
+    justify-content: center;
+  }
+
+  .spline {
+    /* margin: 0;
+    top: 0;
+    right: 0; */
+    /* position: absolute;
+    left: 0px;
+    top: 0px; */
+    /* transform: scale(0.6) translateX(200px); */
+  }
+  /* transform-origin: top; */
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    overflow-x: hidden;
+  }
+  .spline {
+    /* transform: scale(0.7) translateX(600px); */
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 600px) {
+  /* .wrapper {
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  } */
+  .spline {
+    /* transform: scale(0.5) translateX(-100px); */
+    /* position: absolute;
+    transform: scale(0.6) translateX(10px); */
+    transform: scale(0.6);
+
+    /* top: 0;
+    right: 0;
+    left: 0; */
+
+    /* right: auto;
+    left: 50%;
+    margin-left: -600px; */
+  }
+}
+
+@media (max-width: 375px) {
+  .spline {
+    /* transform: scale(0.45) translateX(-50px); */
+    transform: scale(0.45);
+  }
+}
+
+/* CSS not supported nested media queries like below */
+/* .spline {
+  @media (max-width: 1440px) {
+    transform: scale(0.8) translateX(200px);
+    /* transform-origin: top; */
+/* } */
+
+/* @media (max-width: 1024px) {
+    transform: scale(0.8) translateX(200px); */
+/* transform-origin: top; */
+/* }
+}  */
