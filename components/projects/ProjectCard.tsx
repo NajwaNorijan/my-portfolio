@@ -56,7 +56,7 @@ const ProjectCard: FunctionComponent<{
         </div>
         <div>
           {showDetail === id && (
-            <div className="w-full h-auto p-2 text-black bg-gray-100 rounded-b-lg md:p-10 dark:text-white dark:bg-dark-100">
+            <div className="w-full text-center h-auto p-2 text-black bg-gray-100 rounded-b-lg md:p-10 dark:text-white dark:bg-dark-100">
               <motion.div
                 variants={stagger}
                 animate="animate"

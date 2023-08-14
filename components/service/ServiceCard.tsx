@@ -23,7 +23,7 @@ const ServiceCard: FunctionComponent<{ service: IService }> = ({
           </h3>
         </div> */}
       
-        <div className="grid grid-cols-3 gap-5 py-10"> 
+        <div className="grid grid-cols-3 gap-5 py-10 px-2"> 
           {tools.map((tool) => (
           <div className="bg-teal-600 rounded-xl" key={tool}>
             <p className="p-2 text-white">{tool}</p>

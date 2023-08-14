@@ -11,7 +11,7 @@ const ServiceOfferSection = () => {
           What I Am Doing
         </h3>
 
-        <div className="gap-10 lg:flex">
+        <div className="gap-10 mx-2 lg:flex">
           {services.map((service) => (
             <motion.div
               variants={fadeInUp}
